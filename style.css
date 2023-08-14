@@ -1,35 +1,26 @@
-.payment-form {
-width: 300px;
-margin: 0 auto;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid 
+#ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .form-group {
-margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 label {
-display: block;
-font-weight: bold;
-}
-
-input[type="text"],
-button {
-width: 100%;
-padding: 5px;
-border: 1px solid
-#ccc;
-border-radius: 5px;
-}
-
-button {
-background-color:
-#4CAF50;
-color:
-white;
-cursor: pointer;
-}
-
-button:hover {
-background-color:
-#45a049;
+    display: block;
+    font-weight: bold;
 }
